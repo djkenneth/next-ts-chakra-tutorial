@@ -8,11 +8,10 @@ import {
     VisuallyHidden,
 } from '@chakra-ui/react'
 import { FaFacebook, FaGithub, FaGoogle } from 'react-icons/fa'
-import { Card } from '../components/Card'
-import { DividerWithText } from '../components/DividerWithText'
-import { Link } from '../components/Link'
-import { LoginForm } from '../components/LoginForm'
-import { Logo } from '../components/Logo'
+import { Card } from '../../components/LoginPage/Card'
+import { DividerWithText } from '../../components/LoginPage/DividerWithText'
+import { Link } from '../../components/LoginPage/Link'
+import { LoginForm } from '../../components/LoginPage/LoginForm'
 
 const Login = () => {
     return (
@@ -23,7 +22,6 @@ const Login = () => {
             px={{ base: '4', lg: '8' }}
         >
             <Box maxW="md" mx="auto">
-                <Logo mx="auto" h="8" mb={{ base: '10', md: '20' }} />
                 <Heading textAlign="center" size="xl" fontWeight="extrabold">
                     Sign in to your account
                 </Heading>
